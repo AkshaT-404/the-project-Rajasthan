@@ -1,0 +1,612 @@
+body {
+    text-align: center;
+    margin: 0;
+    animation-name: backgroundcolorpallete;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.heading-1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin: 0px auto 0 auto;
+}
+
+.heading-2 {
+    font-family: 'Playfair Display SC', serif;
+
+    font-size: 6rem;
+
+    margin: 0 auto 0 auto;
+
+    /* font-family: 'Cinzel Decorative', cursive; */
+
+    /* font-family: 'TypographytimesRegular'; */
+
+    /* you can use other fonts out of these two too */
+
+}
+
+@keyframes backgroundcolorpallete {
+    0% {
+        background: #edc4b3;
+    }
+
+    10% {
+        background: #e6b8a2;
+    }
+
+    20% {
+        background: #deab90;
+    }
+
+    30% {
+        background: #d69f7e;
+    }
+
+    40% {
+        background: #cd9777;
+    }
+
+    50% {
+        background: #c38e70;
+    }
+
+    60% {
+        background: #cd9777;
+    }
+
+    70% {
+        background: #d69f7e;
+    }
+
+    80% {
+        background: #deab90;
+    }
+
+    90% {
+        background: #e6b8a2;
+    }
+
+    100% {
+        background: #edc4b3;
+    }
+}
+
+.Introduction-1 {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 25.44px;
+    /* color: white; */
+
+}
+
+.same-hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: #a47148;
+    border-width: 10px;
+    width: 200px;
+    align-items: center;
+    margin: 20px auto 20px auto;
+}
+
+.heading-3 {
+
+
+    font-family: 'TypographytimesRegular';
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+
+.attraction {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: larger;
+
+}
+
+
+
+.heading-4 {
+
+
+    font-family: 'TypographytimesRegular';
+    font-size: 2.5rem;
+}
+
+
+.flora-fauna {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: larger;
+    width: 79%;
+
+}
+
+
+.vector-4 {
+
+    float: right;
+}
+
+.flora-fauna2 {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: larger;
+}
+
+.wildlife {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: larger;
+}
+
+.bold {
+    font-family: 'Merriweather', serif;
+    font-size: 1.59rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+
+    font-family: 'Cinzel', serif;
+    height: 80px;
+    background-color: #C69B7B;
+    box-shadow: 0 3px 15px rgba(0, 0, 0.9);
+}
+
+
+
+nav ul {
+
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+
+    display: inline-block;
+
+}
+
+nav ul li a {
+
+    color: black;
+    display: block;
+    padding: 0, 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #C69B7B;
+    transition: .5s;
+
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #F1F0D1;
+}
+
+nav ul ul {
+
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #8E3200;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+nav ul li:hover>ul {
+
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+
+nav ul ul li {
+
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid black;
+    border-top: none;
+}
+
+
+nav ul ul li a {
+
+    line-height: 50px;
+}
+
+
+.top-hr {
+
+    border-style: groove;
+    border-width: 10px;
+    border-color: #a47148;
+
+}
+
+.logo {
+    font-size: 33px;
+    position: absolute;
+}
+
+nav ul li a i {
+
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.active {
+
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.div-1 {
+    background-image: url(https://gos3.ibcdn.com/india-rajasthan-147805780122o.jpeg);
+}
+
+.handicrafts {
+
+    float: left;
+}
+
+
+.bold-1 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+}
+
+.shopping {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: larger;
+}
+
+.heading-5 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin: 0px auto 0 auto;
+    color: #b9375e;
+}
+
+
+.history-img {
+
+    float: right;
+}
+
+.Introduction-9 {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 25.44px;
+    /* color: white; */
+    text-align: left;
+
+}
+
+.jaipur-image {
+
+    width: 600px;
+    display: inline-block;
+}
+
+.jaipur-image1 {
+
+    width: 540px;
+    display: inline-block;
+}
+
+.heading-6 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin: 0px auto 0 auto;
+    color: #00b4d8;
+}
+
+
+.Mehrangarh-img {
+
+    width: 1200px;
+}
+
+.jodhpur-img {
+
+    width: 600px;
+    display: inline-block;
+}
+
+.home-section {
+
+
+    height: 100vh;
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .9s;
+
+    animation-name: backgroundimg;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+
+.heading-26 {
+    /* font-family: 'Playfair Display SC', serif; */
+
+    font-size: 6rem;
+
+    margin: 0 auto 0 auto;
+
+    font-family: 'Cinzel Decorative', cursive;
+
+    position: absolute;
+
+    top: 25rem;
+
+    /* font-family: 'TypographytimesRegular'; */
+
+    /* you can use other fonts out of these two too */
+
+}
+
+.heading-25 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    margin: 0px auto 0 auto;
+    position: absolute;
+    top: 22rem;
+}
+
+.arrow-gif {
+
+    /* width: 150px; */
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+}
+
+.jodhpur-img {
+
+    width: 1000px;
+
+
+
+}
+
+.maharana-pratap-img {
+
+    float: right;
+}
+
+.udaipur-img {
+
+    width: 540px;
+    display: inline-block;
+}
+
+
+.jaisalmer-img {
+
+    width: 1200px;
+}
+
+.jaisalmer-founder {
+
+    float: left;
+    width: 580px;
+}
+
+.introduction-10 {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 25.44px;
+    /* color: white; */
+    text-align: center;
+}
+
+.jaisalmer-fort {
+
+    width: 700px;
+    display: inline-block;
+}
+
+.jaisalmer-fort2 {
+
+    width: 400px;
+    display: inline-block;
+}
+
+.introduction-9 {
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 25.44px;
+    /* color: white; */
+}
+
+.Dal-bhati-img {
+
+    width: 600px;
+    /* float: left; */
+}
+
+.Gatte {
+
+    width: 600px;
+ 
+}
+
+.laal-mans {
+
+    width: 600px;
+}
+
+.Ker-Sangri {
+
+    width: 600px;
+}
+
+.raab {
+
+    width: 600px;
+}
+
+.taj {
+
+    background: url(/images/Taaj\ Lake\ Palace.jpeg);
+}
+
+.bottomdiv {
+    padding-top: 20px;
+    background-color: #b99b6b;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.name-tags {
+
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 25.44px;
+    /* color: white; */
+}
+
+.cameeell {
+
+    display: inline-block;
+    position: absolute;
+    right: 23rem;
+
+}
+
+
+.name-tags-1 {
+
+
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 3.75rem;
+    /* color: white; */
+    margin: 0 auto 0 auto;
+    
+}
+
+.thanks {
+
+    background: linear-gradient(#ffafbd ,#ffc3a0);
+    margin: 0 auto 0 auto;
+}
+
+.cameeell2 {
+
+    display: inline-block;
+    position: absolute;
+    left: 23rem;
+
+}
+
+.Insta-gif{
+
+    width: 9rem;
+}
+
+.nameeeeeee{
+
+    position: relative;
+    bottom: 50px;
+    font-family: 'Cinzel', serif;
+    line-height: 2;
+    font-size: 2rem;
+
+
+}
+
+.gif-line{
+
+position: absolute;
+display: block;
+margin: 0;
+top: 35px;
+right: 45rem;
+}
+
+.taaj-img{
+
+    margin-top: 90px;
+}
+
+
+@keyframes backgroundimg{
+     0% {
+        background: url(/animation/1stt.jpg);
+    }
+
+     10% {
+        background: url(/animation/2nd.jpg);
+    }
+
+    20% {
+        background: url(/animation/3rdd.jpg);
+    }
+
+    30% {
+        background: url(/animation/4thh.jpg);
+    }
+
+    40% {
+        background: url(/animation/5th.jpg);
+    }
+
+    50% {
+        background: url(/animation/6thh.jpg);
+    }
+
+    60% {
+        background:url(/animation/7thh.jpg);
+    }
+
+    70% {
+        background: url(/animation/8thh.jpg);
+    }
+
+    80% {
+        background: url(/animation/9thh.jpg);
+    }
+
+    100% {
+        background: url(/animation/10thh.jpg);
+    }
+
+    100% {
+        background: url(/animation/1thh.jpg);
+    }
+}
+
